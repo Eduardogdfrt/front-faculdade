@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: "Comic Sans MS", cursive; 
+    font-size: 20px; 
+}
+
+.centralizar_header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  
+    backdrop-filter: blur(50px); 
+    padding: 2px;
+
+    border-radius: 5px;
+    border: #b4d3b2;
+    border-width: 1px;
+}
+
+.inicio_e {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-size: 22px;
+}
+
+.inicio_d {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    font-size: 22px;
+}
+
+.p1 {
+    margin-left: 100px;
+}
+
+.p2 {
+    margin-right: 70px;
+}
+.botao_log{
+    padding-right   : 20px;
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px;
+    border-width: 2px;
+    background-color:#b4d3b2;
+    margin-right: 15px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+
+}
+.botao_log:hover {
+ 
+}
