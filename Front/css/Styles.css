@@ -1,22 +1,20 @@
-body {
-    margin: 0;
-    font-family: "Comic Sans MS", cursive; 
-    font-size: 20px; 
-}
 
 .centralizar_header {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-  
+    align-items: center;
     backdrop-filter: blur(50px); 
     padding: 2px;
-
     border-radius: 5px;
     border: #b4d3b2;
     border-width: 1px;
+    width: 100%; 
+    position: fixed;
+    top: 0; 
+    background-color: rgba(255, 255, 255, 0.9); 
+    z-index: 1000; 
 }
-
 .inicio_e {
     display: flex;
     align-items: flex-start;
@@ -30,8 +28,8 @@ body {
     align-items: flex-end;
     justify-content: flex-end;
     font-size: 22px;
+    margin-right: 30px; /* Ajuste conforme necessário */
 }
-
 .p1 {
     margin-left: 100px;
 }
@@ -63,4 +61,13 @@ a:visited {
 }
 .icon{
     height: 10vh;
+}
+.footer {
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    color: aliceblue;
+    width: 100%;
+    justify-content: center;
 }

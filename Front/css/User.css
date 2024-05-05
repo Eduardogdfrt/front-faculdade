@@ -1,0 +1,64 @@
+
+.card{
+    margin-top:10vh ;
+    margin-bottom:10vh ;
+    margin-left: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 50%;
+    height: 10%;
+    padding: 5vh;
+    border-radius: 30px;
+    transition: transform 1s ease;
+    background-color:  white;
+
+}
+.imagem_card_user {
+    width: 100%;
+    max-width: 200px; 
+    height: auto; 
+}
+
+
+.carde{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 150vh;
+    margin-bottom: 20px;
+    
+}
+.card{
+    width: 50% ;
+    background-color:  white;
+    display:  flex;
+    justify-content:  center;
+    align-items:  center;
+}
+.infos{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    width: 50%;
+    padding: 10vh;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+.cent{
+     display: flex;
+     justify-content:  center;
+     align-items:  center;
+   flex-direction: column;
+}
+.centerlizer{ 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ 
+}       

@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color:
+ rgba(8,205,174,0.5); 
+}
+
+.meio2 {
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    width: 300px; /
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+    width: 80px; 
+    text-align: right; 
+}
+
+input {
+    flex: 1;
+}
+
+.botao_log {
+    width: 100%;
+    text-align: center;
+    background-color: #6ec48c;
+    color: white;
+    padding: 10px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
