@@ -5,7 +5,7 @@
     background-color: #333;
     padding: 20px;
     color: #fff;
-    z-index: 1000; /* Para garantir que o menu esteja acima do conteúdo */
+    z-index: 1000; 
 }
 
 .menu ul {

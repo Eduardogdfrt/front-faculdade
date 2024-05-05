@@ -102,8 +102,8 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    object-fit: cover; /* Para garantir que a imagem cubra todo o espaço */
-    z-index: -1; /* Para colocar a imagem atrás do conteúdo */
+    object-fit: cover; 
+    z-index: -1;
 }
 
 .content {
@@ -117,7 +117,6 @@ html {
     padding: 20px;
     border-radius: 10px; 
     font-size: 60px;
-    transition: transform 0.1s ease; /* Reduza o tempo de transição para 0.5 segundos */
    
 }
 .botao{
