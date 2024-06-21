@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3R’s</title>
+  <link rel="stylesheet" type="text/css" href="css/Styles.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/Home.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/login.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/User.css" media="screen" />
+  <link rel="stylesheet" type="text/css" href="css/admin.css" media="screen" />
+  <script src="js/admin.js" defer></script>
+  <link rel="icon" href="Img/5267667.png" type="image/png">
+  <style>
+    /* Removed redundant body styles for centering */
+    
+   
+  </style>
+</head>
+<body class="C_admin">
+  <header class="centralizar_header" style="color: white;">
+    <div class="inicio_e">
+      <a href="index.html">
+        <img src="Img/5267667.png" class="icon">
+      </a>
+    </div>
+    <div class="inicio_d">
+      <div>
+        <p class="botao_log">Página do Administrador</p>
+      </div>
+    </div>
+  </header>
+  <div class=" arrumar">
+
+    <div>
+      <div class="centerlizerr">
+        <input type="text" id="searchInput" placeholder="Buscar por nome..." style="margin-bottom: 20px; padding: 10px; font-size: 16px;">
+      </div>
+      <div class="centerlizerr botaoadm" >
+        <button id="openModalBtn" class="Badd">Adicionar Usuário</button>
+      </div>
+  
+      <div class="centerlizerr botaoadm2">
+        <button id="clearAllBtn" class="Badd">Excluir Todos os Usuários</button>
+      </div>
+    </div>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <form id="addRowForm" style="display: flex; flex-direction: column;">
+          <p class="formsItem">Email:</p>
+          <input type="text" id="email" placeholder="" required style="font-size: 20px;">
+          <p class="formsItem">Nome:</p>
+          <input type="text" id="nome" placeholder="" required style="font-size: 20px;">
+          <button type="submit" class="formsItemB">Adicionar Linha</button>
+          <button type="button" id="clearButton" class="formsItemB">Limpar</button>
+        </form>
+      </div>
+    </div>
+      <div class="centerlizerr" style="position:  relative;" >
+        <table id="dynamicTable">
+          <tr>
+            <th>Id</th>
+            <th>Email</th>
+            <th>Nome</th>
+            <th>Data</th>
+            <th>Ações</th>
+          </tr>
+        </table>
+      </div>
+  
+   
+    </div>
+
+  </div>
+
+</body>
+</html>
